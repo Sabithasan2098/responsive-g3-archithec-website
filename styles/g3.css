@@ -135,6 +135,7 @@ li {
     gap: 146px;
     padding-left: 240px;
     padding-right: 240px;
+    background-color: #FFF;
 }
 
 .box {
@@ -202,10 +203,92 @@ li {
     line-height: 40px;
     display: block;
 }
-.my-feature-pic{
-    width: 100%;
-    height: 100%;
+
+/* fact-section */
+.some-fact {
+    background-color: #FFF;
 }
+
+.some-fact-title {
+    color: #131313;
+    font-size: 45px;
+    padding-left: 240px;
+    font-weight: 700;
+    padding-top: 130px;
+}
+
+.fact-description {
+    padding: 0px 1100px 100px 240px;
+}
+
+.fact-container {
+    display: flex;
+    gap: 125px;
+    padding-left: 290px;
+}
+
+.fact {
+    border: 1px solid tomato;
+    text-align: center;
+    border-radius: 8px;
+    width: 241.831px;
+    height: 241.831px;
+}
+
+/* .fact-logo {
+    padding-top: 46px;
+} */
+
+.fact-number {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.fact-title {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+    /* padding-bottom: 60px; */
+}
+
+/* sponcer-section */
+.sponcer {
+    padding-top: 180px;
+    text-align: center;
+    align-items: center;
+}
+
+.sponcer-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.sponcer-description {
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 675px 0px 675px;
+
+}
+
+.sponcer-com {
+    display: flex;
+    gap: 155px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+.footer{
+    text-align: center;
+    background-color:rgba(255, 144, 14, 0.10) ;
+    padding: 39px 410px 38px 410px;
+    margin: 0px 240px 216px 240px;
+}
+
 
 
 
@@ -291,15 +374,72 @@ li {
     .my-feature-info-title {
         gap: 5px;
     }
-    .my-feature-title{
+
+    .my-feature-title {
         padding-right: 2px;
     }
-    .my-feature-blog{
+
+    .my-feature-blog {
         margin-top: 10px;
     }
-    #exprience-button{
+
+    #exprience-button {
         bottom: 0px;
         right: 0px;
-        
+
     }
+
+    .my-feature-pic {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* fact-section */
+    .some-fact-title {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    .fact-description {
+        padding: 0px;
+    }
+
+    .fact-container {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0px;
+    }
+
+    .some-fact {
+        text-align: center;
+    }
+
+    .fact-container {
+        align-items: center;
+    }
+
+    /* sponcer-section */
+    .sponcer {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .sponcer-description {
+        padding: 0px;
+    }
+
+    .sponcer-com {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px; 
+        height: 60%;
+        width: 60%;
+    }
+     .footer{
+        padding: 10px 5px;
+        margin: 20px 0px;
+     }
 }
